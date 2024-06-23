@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri May  3 11:51:32 2024
+# Process ID: 1668
+# Current directory: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14608 C:\Users\admin\OneDrive\Desktop\LabNano\LabNano\Lab\nanoProcessor\fProcessor\project_2.xpr
+# Log file: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/vivado.log
+# Journal file: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source TB_Microprocessor.tcl
+add_bp {C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Slow_Clk.vhd} 31
+remove_bps -file {C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Slow_Clk.vhd} -line 31
+close_sim
+launch_simulation
+source TB_Microprocessor.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source TB_Microprocessor.tcl
+close_sim
+launch_simulation
+source TB_Microprocessor.tcl
+close_sim
+launch_simulation
+source TB_Microprocessor.tcl
+close_sim

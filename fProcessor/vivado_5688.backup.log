@@ -1,0 +1,1515 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri May  3 14:37:30 2024
+# Process ID: 5688
+# Current directory: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10072 C:\Users\admin\OneDrive\Desktop\LabNano\LabNano\Lab\nanoProcessor\fProcessor\project_2.xpr
+# Log file: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/vivado.log
+# Journal file: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 863.434 ; gain = 154.863
+update_compile_order -fileset sources_1
+set_property top Reg_Bank [current_fileset]
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Reg_Bank
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 995.547 ; gain = 103.121
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Reg_Bank' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg_Bank.vhd:21]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Decoder_3_to_8.vhd:4' bound to instance 'decoder' of component 'Decoder_3_to_8' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg_Bank.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Decoder_3_to_8.vhd:12]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Decoder_2_to_4.vhd:4' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Decoder_3_to_8.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Decoder_2_to_4.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (1#1) [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Decoder_2_to_4.vhd:12]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Decoder_2_to_4.vhd:4' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Decoder_3_to_8.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (2#1) [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Decoder_3_to_8.vhd:12]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg.vhd:4' bound to instance 'reg_0' of component 'Reg' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg_Bank.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (3#1) [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg.vhd:14]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg.vhd:4' bound to instance 'reg_1' of component 'Reg' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg_Bank.vhd:62]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg.vhd:4' bound to instance 'reg_2' of component 'Reg' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg_Bank.vhd:70]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg.vhd:4' bound to instance 'reg_3' of component 'Reg' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg_Bank.vhd:78]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg.vhd:4' bound to instance 'reg_4' of component 'Reg' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg_Bank.vhd:86]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg.vhd:4' bound to instance 'reg_5' of component 'Reg' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg_Bank.vhd:94]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg.vhd:4' bound to instance 'reg_6' of component 'Reg' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg_Bank.vhd:102]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg.vhd:4' bound to instance 'reg_7' of component 'Reg' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg_Bank.vhd:110]
+INFO: [Synth 8-256] done synthesizing module 'Reg_Bank' (4#1) [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg_Bank.vhd:21]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1037.105 ; gain = 144.680
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1037.105 ; gain = 144.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1037.105 ; gain = 144.680
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:4]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports Clk]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:4]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'Reset'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Reset'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'N_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'N_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'P_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'P_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[4]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[4]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[5]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[5]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[6]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[6]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1351.102 ; gain = 458.676
+23 Infos, 43 Warnings, 43 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1351.102 ; gain = 458.676
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Microprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Microprocessor_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Microprocessor_behav xil_defaultlib.TB_Microprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Microprocessor_behav -key {Behavioral:sim_1:Functional:TB_Microprocessor} -tclbatch {TB_Microprocessor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Microprocessor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Microprocessor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1372.844 ; gain = 0.000
+set_property top TB_Reg_Bank [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Reg_Bank' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Reg_Bank_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Reg_Bank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Reg_Bank
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Reg_Bank_behav xil_defaultlib.TB_Reg_Bank -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_Bank [reg_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_reg_bank
+Built simulation snapshot TB_Reg_Bank_behav
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim/xsim.dir/TB_Reg_Bank_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri May  3 18:36:48 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Reg_Bank_behav -key {Behavioral:sim_1:Functional:TB_Reg_Bank} -tclbatch {TB_Reg_Bank.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Reg_Bank.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Reg_Bank_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1383.414 ; gain = 6.992
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Reg_Bank' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Reg_Bank_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Reg_Bank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Reg_Bank
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Reg_Bank_behav xil_defaultlib.TB_Reg_Bank -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_Bank [reg_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_reg_bank
+Built simulation snapshot TB_Reg_Bank_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Reg_Bank_behav -key {Behavioral:sim_1:Functional:TB_Reg_Bank} -tclbatch {TB_Reg_Bank.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Reg_Bank.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Reg_Bank_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top Program_Rom [current_fileset]
+update_compile_order -fileset sources_1
+set_property top TB_Program_Rom [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+close_design
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Program_Rom
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1393.289 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Program_Rom' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Program_Rom.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Program_Rom' (1#1) [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Program_Rom.vhd:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1393.289 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1393.289 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1393.289 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:4]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports Clk]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:4]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'Reset'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Reset'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'N_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'N_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'P_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'P_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[4]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[4]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[5]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[5]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[6]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[6]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1395.617 ; gain = 2.328
+5 Infos, 43 Warnings, 43 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1395.617 ; gain = 2.328
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Program_Rom' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Program_Rom_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Program_Rom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Program_Rom
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Program_Rom_behav xil_defaultlib.TB_Program_Rom -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Program_Rom [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_program_rom
+Built simulation snapshot TB_Program_Rom_behav
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim/xsim.dir/TB_Program_Rom_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri May  3 18:55:21 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Program_Rom_behav -key {Behavioral:sim_1:Functional:TB_Program_Rom} -tclbatch {TB_Program_Rom.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Program_Rom.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+ERROR: Index 7 out of bound 0 to 6
+Time: 600 ns  Iteration: 1  Process: /TB_Program_Rom/UUT/line__55
+  File: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Program_Rom.vhd
+
+HDL Line: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Program_Rom.vhd:55
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Program_Rom_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1401.535 ; gain = 5.918
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Program_Rom' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Program_Rom_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Program_Rom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Program_Rom
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Program_Rom_behav xil_defaultlib.TB_Program_Rom -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Program_Rom [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_program_rom
+Built simulation snapshot TB_Program_Rom_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Program_Rom_behav -key {Behavioral:sim_1:Functional:TB_Program_Rom} -tclbatch {TB_Program_Rom.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Program_Rom.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+ERROR: Index 7 out of bound 0 to 6
+Time: 300 ns  Iteration: 1  Process: /TB_Program_Rom/UUT/line__55
+  File: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Program_Rom.vhd
+
+HDL Line: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Program_Rom.vhd:55
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Program_Rom_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Program_Rom' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Program_Rom_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Program_Rom_behav xil_defaultlib.TB_Program_Rom -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Program_Rom_behav -key {Behavioral:sim_1:Functional:TB_Program_Rom} -tclbatch {TB_Program_Rom.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Program_Rom.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+ERROR: Index 7 out of bound 0 to 6
+Time: 300 ns  Iteration: 1  Process: /TB_Program_Rom/UUT/line__55
+  File: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Program_Rom.vhd
+
+HDL Line: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Program_Rom.vhd:55
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Program_Rom_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Program_Rom' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Program_Rom_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Program_Rom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Program_Rom
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Program_Rom_behav xil_defaultlib.TB_Program_Rom -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Program_Rom [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_program_rom
+Built simulation snapshot TB_Program_Rom_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Program_Rom_behav -key {Behavioral:sim_1:Functional:TB_Program_Rom} -tclbatch {TB_Program_Rom.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Program_Rom.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+ERROR: Index 7 out of bound 0 to 6
+Time: 200 ns  Iteration: 1  Process: /TB_Program_Rom/UUT/line__55
+  File: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Program_Rom.vhd
+
+HDL Line: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Program_Rom.vhd:55
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Program_Rom_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Program_Rom' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Program_Rom_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Program_Rom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_Rom
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Program_Rom_behav xil_defaultlib.TB_Program_Rom -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Program_Rom [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_program_rom
+Built simulation snapshot TB_Program_Rom_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Program_Rom_behav -key {Behavioral:sim_1:Functional:TB_Program_Rom} -tclbatch {TB_Program_Rom.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Program_Rom.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Program_Rom_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1409.797 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_design
+set_property top Inst_Decoder [current_fileset]
+update_compile_order -fileset sources_1
+set_property top TB_Inst_Decoder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Inst_Decoder
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1409.797 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Inst_Decoder' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Inst_Decoder.vhd:21]
+INFO: [Synth 8-3491] module 'Inst_Reg' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Inst_Reg.vhd:4' bound to instance 'instReg13' of component 'Inst_Reg' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Inst_Decoder.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'Inst_Reg' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Inst_Reg.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Inst_Reg' (1#1) [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Inst_Reg.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Inst_Decoder' (2#1) [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Inst_Decoder.vhd:21]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1409.797 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1409.797 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1409.797 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:4]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports Clk]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:4]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'Reset'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Reset'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'N_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'N_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'P_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'P_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[4]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[4]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[5]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[5]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[6]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[6]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1457.660 ; gain = 47.863
+8 Infos, 43 Warnings, 43 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1457.660 ; gain = 47.863
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Inst_Decoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Inst_Decoder_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Inst_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Inst_Decoder
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Inst_Decoder_behav xil_defaultlib.TB_Inst_Decoder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Inst_Reg [inst_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inst_Decoder [inst_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_inst_decoder
+Built simulation snapshot TB_Inst_Decoder_behav
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim/xsim.dir/TB_Inst_Decoder_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri May  3 19:18:28 2024...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1457.660 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Inst_Decoder_behav -key {Behavioral:sim_1:Functional:TB_Inst_Decoder} -tclbatch {TB_Inst_Decoder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Inst_Decoder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Inst_Decoder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1457.660 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1457.660 ; gain = 0.000
+close_design
+set_property top Slow_Clk [current_fileset]
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Slow_Clk
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1457.660 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Slow_Clk.vhd:14]
+WARNING: [Synth 8-614] signal 'en' is read in the process but is not in the sensitivity list [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Slow_Clk.vhd:20]
+WARNING: [Synth 8-614] signal 'clkStatus' is read in the process but is not in the sensitivity list [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Slow_Clk.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (1#1) [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Slow_Clk.vhd:14]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1457.660 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1457.660 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1457.660 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:4]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports Clk]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:4]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'Reset'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Reset'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'N_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'N_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'P_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'P_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[4]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[4]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[5]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[5]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[6]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[6]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1492.664 ; gain = 35.004
+5 Infos, 45 Warnings, 43 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1492.664 ; gain = 35.004
+set_property top PC [current_fileset]
+update_compile_order -fileset sources_1
+close_design
+set_property top TB_PC [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: PC
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1492.664 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'PC' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/PC.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'PC' (1#1) [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/PC.vhd:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1492.664 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1492.664 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1492.664 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:4]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports Clk]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:4]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'Reset'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Reset'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'N_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'N_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'P_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'P_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[4]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[4]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[5]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[5]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[6]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[6]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1492.664 ; gain = 0.000
+5 Infos, 43 Warnings, 43 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1492.664 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_PC' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_PC_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_PC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_PC
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_PC_behav xil_defaultlib.TB_PC -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_pc
+Built simulation snapshot TB_PC_behav
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim/xsim.dir/TB_PC_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri May  3 19:40:01 2024...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1492.664 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_PC_behav -key {Behavioral:sim_1:Functional:TB_PC} -tclbatch {TB_PC.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_PC.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_PC_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1492.664 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_design
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May  3 19:42:30 2024...

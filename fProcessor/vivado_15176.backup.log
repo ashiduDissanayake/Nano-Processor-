@@ -1,0 +1,610 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri May  3 10:35:26 2024
+# Process ID: 15176
+# Current directory: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18036 C:\Users\admin\OneDrive\Desktop\LabNano\LabNano\Lab\nanoProcessor\fProcessor\project_2.xpr
+# Log file: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/vivado.log
+# Journal file: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/nimes/Desktop/LabNano/Lab/nanoProcessor/fProcessor' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 892.652 ; gain = 172.926
+update_compile_order -fileset sources_1
+close [ open C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/TBuffer_2_1_4Bit.vhd w ]
+add_files C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/TBuffer_2_1_4Bit.vhd
+update_compile_order -fileset sources_1
+close [ open C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/TBuffer_2_1_4Bit_I.vhd w ]
+add_files C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/TBuffer_2_1_4Bit_I.vhd
+update_compile_order -fileset sources_1
+close [ open C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1.vhd w ]
+add_files C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1.vhd
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Mux_2_1.vhd w ]
+add_files -fileset sim_1 C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Mux_2_1.vhd
+update_compile_order -fileset sim_1
+set_property top TB_Mux_2_1 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Mux_2_1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Mux_2_1_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/TBuffer_2_1_4Bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TBuffer_2_1_4Bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/TBuffer_2_1_4Bit_I.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TBuffer_2_1_4Bit_I
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Mux_2_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Mux_2_1
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Mux_2_1_behav xil_defaultlib.TB_Mux_2_1 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.TBuffer_2_1_4Bit_I [tbuffer_2_1_4bit_i_default]
+Compiling architecture behavioral of entity xil_defaultlib.TBuffer_2_1_4Bit [tbuffer_2_1_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_1 [mux_2_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_mux_2_1
+Built simulation snapshot TB_Mux_2_1_behav
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim/xsim.dir/TB_Mux_2_1_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri May  3 11:06:33 2024...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1042.465 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Mux_2_1_behav -key {Behavioral:sim_1:Functional:TB_Mux_2_1} -tclbatch {TB_Mux_2_1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Mux_2_1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Mux_2_1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:18 . Memory (MB): peak = 1059.828 ; gain = 17.363
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1061.227 ; gain = 0.000
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/Mux_8_1.vhd w ]
+add_files -fileset sim_1 C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/Mux_8_1.vhd
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/Mux_8_1.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/Mux_8_1.vhd
+remove_files  -fileset sim_1 C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/Mux_8_1.vhd
+WARNING: [Vivado 12-818] No files matched 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/Mux_8_1.vhd'
+file delete -force C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/Mux_8_1.vhd
+close [ open C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_8_1.vhd w ]
+add_files C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_8_1.vhd
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Mux_8_1.vhd w ]
+add_files -fileset sim_1 C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Mux_8_1.vhd
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Mux_2_1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Mux_2_1_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Mux_2_1_behav xil_defaultlib.TB_Mux_2_1 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Mux_2_1_behav -key {Behavioral:sim_1:Functional:TB_Mux_2_1} -tclbatch {TB_Mux_2_1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Mux_2_1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Mux_2_1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1065.168 ; gain = 3.941
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top TB_Mux_8_1 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Mux_8_1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Mux_8_1_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Mux_8_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Mux_8_1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Mux_8_1_behav xil_defaultlib.TB_Mux_8_1 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-122] mux_8_1 remains a black-box since it has no binding entity [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Mux_8_1.vhd:56]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.tb_mux_8_1
+Built simulation snapshot TB_Mux_8_1_behav
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim/xsim.dir/TB_Mux_8_1_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri May  3 11:19:31 2024...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1065.168 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Mux_8_1_behav -key {Behavioral:sim_1:Functional:TB_Mux_8_1} -tclbatch {TB_Mux_8_1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Mux_8_1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Mux_8_1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1065.168 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Mux_8_1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Mux_8_1_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Mux_8_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Mux_8_1
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Mux_8_1_behav xil_defaultlib.TB_Mux_8_1 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-122] mux_8_1 remains a black-box since it has no binding entity [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Mux_8_1.vhd:53]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.tb_mux_8_1
+Built simulation snapshot TB_Mux_8_1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Mux_8_1_behav -key {Behavioral:sim_1:Functional:TB_Mux_8_1} -tclbatch {TB_Mux_8_1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Mux_8_1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Mux_8_1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1068.496 ; gain = 0.184
+set_property top Mux_8_to_1 [current_fileset]
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Mux_8_to_1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1178.805 ; gain = 104.961
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Mux_8_to_1' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_8_1.vhd:11]
+INFO: [Synth 8-3491] module 'Mux_2_1' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1.vhd:34' bound to instance 'Mux_2_1_A' of component 'Mux_2_1' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_8_1.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'Mux_2_1' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1.vhd:41]
+INFO: [Synth 8-3491] module 'TBuffer_2_1_4Bit_I' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/TBuffer_2_1_4Bit_I.vhd:34' bound to instance 'TBuffer_2_1_4Bit_I_0' of component 'TBuffer_2_1_4Bit_I' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'TBuffer_2_1_4Bit_I' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/TBuffer_2_1_4Bit_I.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'TBuffer_2_1_4Bit_I' (1#1) [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/TBuffer_2_1_4Bit_I.vhd:40]
+INFO: [Synth 8-3491] module 'TBuffer_2_1_4Bit' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/TBuffer_2_1_4Bit.vhd:26' bound to instance 'TBuffer_2_1_4Bit_0' of component 'TBuffer_2_1_4Bit' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'TBuffer_2_1_4Bit' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/TBuffer_2_1_4Bit.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'TBuffer_2_1_4Bit' (2#1) [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/TBuffer_2_1_4Bit.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_1' (3#1) [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1.vhd:41]
+INFO: [Synth 8-3491] module 'Mux_2_1' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1.vhd:34' bound to instance 'Mux_2_1_B' of component 'Mux_2_1' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_8_1.vhd:27]
+INFO: [Synth 8-3491] module 'Mux_2_1' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1.vhd:34' bound to instance 'Mux_2_1_C' of component 'Mux_2_1' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_8_1.vhd:30]
+INFO: [Synth 8-3491] module 'Mux_2_1' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1.vhd:34' bound to instance 'Mux_2_1_D' of component 'Mux_2_1' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_8_1.vhd:33]
+INFO: [Synth 8-3491] module 'Mux_2_1' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1.vhd:34' bound to instance 'Mux_2_1_E' of component 'Mux_2_1' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_8_1.vhd:36]
+INFO: [Synth 8-3491] module 'Mux_2_1' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1.vhd:34' bound to instance 'Mux_2_1_F' of component 'Mux_2_1' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_8_1.vhd:39]
+INFO: [Synth 8-3491] module 'Mux_2_1' declared at 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1.vhd:34' bound to instance 'Mux_2_1_G' of component 'Mux_2_1' [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_8_1.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_to_1' (4#1) [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_8_1.vhd:11]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1221.344 ; gain = 147.500
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1221.344 ; gain = 147.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1221.344 ; gain = 147.500
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:4]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports Clk]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:4]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'Reset'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Reset'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'N_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'N_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'P_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'P_Flag'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[4]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[4]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[5]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[5]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[6]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg_7[6]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[0]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[1]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[2]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[3]'. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/Basys3Labs.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1531.375 ; gain = 457.531
+21 Infos, 43 Warnings, 43 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1531.375 ; gain = 457.531
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_design
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Mux_8_1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Mux_8_1_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_8_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Mux_8_1_behav xil_defaultlib.TB_Mux_8_1 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.TBuffer_2_1_4Bit_I [tbuffer_2_1_4bit_i_default]
+Compiling architecture behavioral of entity xil_defaultlib.TBuffer_2_1_4Bit [tbuffer_2_1_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_1 [mux_2_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_1 [mux_8_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_mux_8_1
+Built simulation snapshot TB_Mux_8_1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Mux_8_1_behav -key {Behavioral:sim_1:Functional:TB_Mux_8_1} -tclbatch {TB_Mux_8_1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Mux_8_1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Mux_8_1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1537.895 ; gain = 0.000
+close [ open C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1_3.vhd w ]
+add_files C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1_3.vhd
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1_3.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1_3.vhd
+file delete -force C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1_3.vhd
+remove_files  C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1_3.vhd
+WARNING: [Vivado 12-818] No files matched 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1_3.vhd'
+update_compile_order -fileset sources_1
+set_property top TB_Microprocessor [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Microprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Microprocessor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Adder_3_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_3_bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Inst_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Inst_Decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Inst_Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Inst_Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/LUT_16_7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_16_7
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Microprocessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Microprocessor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/PC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Program_Rom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_Rom
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/RCA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Reg_Bank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg_Bank
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Nanoprocessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Microprocessor
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Microprocessor_behav xil_defaultlib.TB_Microprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-665] expression has 3 elements ; formal i0 expects 4 [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Microprocessor.vhd:238]
+ERROR: [VRFC 10-665] expression has 3 elements ; formal i1 expects 4 [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Microprocessor.vhd:239]
+ERROR: [VRFC 10-665] expression has 3 elements ; formal q expects 4 [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Microprocessor.vhd:241]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_microprocessor in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1714911459">
+  <File Type="PWROPT-DCP" Name="Microprocessor_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="Microprocessor_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Microprocessor.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Microprocessor_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Microprocessor_reports.tcl"/>
+  <File Type="BG-DRC" Name="Microprocessor.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Microprocessor_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Microprocessor_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="Microprocessor.hwdef"/>
+  <File Type="OPT-DCP" Name="Microprocessor_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Microprocessor_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="Microprocessor_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Microprocessor_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Microprocessor_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Microprocessor_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Microprocessor_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Microprocessor_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Microprocessor_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Microprocessor_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Microprocessor_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Microprocessor_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Microprocessor_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Microprocessor_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Microprocessor_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Microprocessor_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Microprocessor_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Microprocessor_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Microprocessor.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="Microprocessor_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Microprocessor_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Microprocessor_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Microprocessor_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Microprocessor_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Microprocessor_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="Microprocessor.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="Microprocessor_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="Microprocessor.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Microprocessor_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="Microprocessor.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Microprocessor_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="Microprocessor.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Microprocessor_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Microprocessor_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Microprocessor_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Microprocessor_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Microprocessor_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Microprocessor_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Microprocessor_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Microprocessor_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Microprocessor.vdi"/>
+  <File Type="ROUTE-CLK" Name="Microprocessor_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Microprocessor_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Microprocessor_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Microprocessor_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Microprocessor_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Microprocessor_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="Microprocessor.nky"/>
+  <File Type="BITSTR-BMM" Name="Microprocessor_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Microprocessor.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Microprocessor.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Microprocessor.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ALU.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Adder_3_bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Decoder_2_to_4.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Decoder_3_to_8.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FA.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/HA.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Inst_Decoder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Inst_Reg.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/LUT_16_7.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux_2_1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux_2_3.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux_8_1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PC.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Program_Rom.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RCA.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Reg.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Reg_Bank.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Slow_Clk.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TBuffer_2_1_4Bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TBuffer_2_1_4Bit_I.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Microprocessor.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux_2_4.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux_8_4.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Microprocessor"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../Basys3Labs.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

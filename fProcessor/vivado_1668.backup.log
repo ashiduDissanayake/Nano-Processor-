@@ -1,0 +1,486 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri May  3 11:51:32 2024
+# Process ID: 1668
+# Current directory: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14608 C:\Users\admin\OneDrive\Desktop\LabNano\LabNano\Lab\nanoProcessor\fProcessor\project_2.xpr
+# Log file: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/vivado.log
+# Journal file: C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 853.988 ; gain = 161.238
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Microprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Microprocessor_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Microprocessor_behav xil_defaultlib.TB_Microprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-665] expression has 3 elements ; formal i0 expects 4 [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Microprocessor.vhd:238]
+ERROR: [VRFC 10-665] expression has 3 elements ; formal i1 expects 4 [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Microprocessor.vhd:239]
+ERROR: [VRFC 10-665] expression has 3 elements ; formal q expects 4 [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Microprocessor.vhd:241]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_microprocessor in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Microprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Microprocessor_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Microprocessor_behav xil_defaultlib.TB_Microprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-665] expression has 3 elements ; formal i0 expects 4 [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Microprocessor.vhd:238]
+ERROR: [VRFC 10-665] expression has 3 elements ; formal i1 expects 4 [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Microprocessor.vhd:239]
+ERROR: [VRFC 10-665] expression has 3 elements ; formal q expects 4 [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Microprocessor.vhd:241]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_microprocessor in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Microprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Microprocessor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Microprocessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Microprocessor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Microprocessor_behav xil_defaultlib.TB_Microprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <i0> does not exist in entity <Mux_2_1>.  Please compare the definition of block <Mux_2_1> to its component declaration and its instantion to detect the mismatch. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Microprocessor.vhd:125]
+ERROR: [VRFC 10-718] formal port <i1> does not exist in entity <Mux_2_1>.  Please compare the definition of block <Mux_2_1> to its component declaration and its instantion to detect the mismatch. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Microprocessor.vhd:126]
+ERROR: [VRFC 10-718] formal port <s> does not exist in entity <Mux_2_1>.  Please compare the definition of block <Mux_2_1> to its component declaration and its instantion to detect the mismatch. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Microprocessor.vhd:127]
+ERROR: [VRFC 10-718] formal port <q> does not exist in entity <Mux_2_1>.  Please compare the definition of block <Mux_2_1> to its component declaration and its instantion to detect the mismatch. [C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Microprocessor.vhd:128]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_microprocessor in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Microprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Microprocessor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_8_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Microprocessor_behav xil_defaultlib.TB_Microprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inst_Reg [inst_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inst_Decoder [inst_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Rom [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_Bank [reg_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA [rca_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_3_bit [adder_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.TBuffer_2_1_4Bit_I [tbuffer_2_1_4bit_i_default]
+Compiling architecture behavioral of entity xil_defaultlib.TBuffer_2_1_4Bit [tbuffer_2_1_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_1 [mux_2_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_1 [mux_8_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Microprocessor [microprocessor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_microprocessor
+Built simulation snapshot TB_Microprocessor_behav
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim/xsim.dir/TB_Microprocessor_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri May  3 12:06:13 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Microprocessor_behav -key {Behavioral:sim_1:Functional:TB_Microprocessor} -tclbatch {TB_Microprocessor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Microprocessor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Microprocessor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 915.062 ; gain = 7.016
+add_bp {C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Slow_Clk.vhd} 31
+remove_bps -file {C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Slow_Clk.vhd} -line 31
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Microprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Microprocessor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Microprocessor_behav xil_defaultlib.TB_Microprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inst_Reg [inst_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inst_Decoder [inst_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Rom [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_Bank [reg_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA [rca_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_3_bit [adder_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.TBuffer_2_1_4Bit_I [tbuffer_2_1_4bit_i_default]
+Compiling architecture behavioral of entity xil_defaultlib.TBuffer_2_1_4Bit [tbuffer_2_1_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_1 [mux_2_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_1 [mux_8_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Microprocessor [microprocessor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_microprocessor
+Built simulation snapshot TB_Microprocessor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Microprocessor_behav -key {Behavioral:sim_1:Functional:TB_Microprocessor} -tclbatch {TB_Microprocessor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Microprocessor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Microprocessor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 932.770 ; gain = 0.000
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Microprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Microprocessor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Microprocessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Microprocessor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Mux_2_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_3
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Microprocessor_behav xil_defaultlib.TB_Microprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inst_Reg [inst_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inst_Decoder [inst_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Rom [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_Bank [reg_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA [rca_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_3_bit [adder_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_3 [mux_2_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.TBuffer_2_1_4Bit_I [tbuffer_2_1_4bit_i_default]
+Compiling architecture behavioral of entity xil_defaultlib.TBuffer_2_1_4Bit [tbuffer_2_1_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_1 [mux_2_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_1 [mux_8_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Microprocessor [microprocessor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_microprocessor
+Built simulation snapshot TB_Microprocessor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Microprocessor_behav -key {Behavioral:sim_1:Functional:TB_Microprocessor} -tclbatch {TB_Microprocessor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Microprocessor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Microprocessor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 932.770 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Microprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Microprocessor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sim_1/new/TB_Nanoprocessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Microprocessor
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Microprocessor_behav xil_defaultlib.TB_Microprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inst_Reg [inst_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inst_Decoder [inst_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Rom [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_Bank [reg_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA [rca_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_3_bit [adder_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_3 [mux_2_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.TBuffer_2_1_4Bit_I [tbuffer_2_1_4bit_i_default]
+Compiling architecture behavioral of entity xil_defaultlib.TBuffer_2_1_4Bit [tbuffer_2_1_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_1 [mux_2_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_1 [mux_8_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Microprocessor [microprocessor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_microprocessor
+Built simulation snapshot TB_Microprocessor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Microprocessor_behav -key {Behavioral:sim_1:Functional:TB_Microprocessor} -tclbatch {TB_Microprocessor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Microprocessor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Microprocessor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 932.770 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Microprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Microprocessor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.srcs/sources_1/new/Program_Rom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_Rom
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e70d5039d4444c27ab234ad90cbde9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Microprocessor_behav xil_defaultlib.TB_Microprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inst_Reg [inst_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inst_Decoder [inst_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Rom [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_Bank [reg_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA [rca_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_3_bit [adder_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_3 [mux_2_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.TBuffer_2_1_4Bit_I [tbuffer_2_1_4bit_i_default]
+Compiling architecture behavioral of entity xil_defaultlib.TBuffer_2_1_4Bit [tbuffer_2_1_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_1 [mux_2_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_1 [mux_8_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Microprocessor [microprocessor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_microprocessor
+Built simulation snapshot TB_Microprocessor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/OneDrive/Desktop/LabNano/LabNano/Lab/nanoProcessor/fProcessor/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Microprocessor_behav -key {Behavioral:sim_1:Functional:TB_Microprocessor} -tclbatch {TB_Microprocessor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Microprocessor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Microprocessor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 932.770 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May  3 13:06:13 2024...
